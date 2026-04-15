@@ -1,10 +1,10 @@
 
-# Mental Health Disorder Diagnosis using Machine Learning & AI
+# Mental Health Disorder Diagnosis using Machine Learning & LLM
 
 ## 📌 Project Overview
 This project aims to bridge the gap between clinical psychology and artificial intelligence by developing a diagnostic pipeline for mental health disorders. Using a dataset of patient symptoms, the project implements **Binary Classification** (Screening: Normal vs. Disorder) and **Multiclass Classification** (Diagnosis: Normal, Bipolar Type-1, Bipolar Type-2, and Depression).
 
-We compare traditional Machine Learning (LR, KNN, RF) with Deep Learning (ANN) and explore the reasoning capabilities of Large Language Models (LLMs).
+We compare traditional Machine Learning (LR, KNN, RF)  and explore the reasoning capabilities of Large Language Models (LLMs).
 
 ## 📊 Dataset Description
 The dataset consists of patient records with several clinical features:
@@ -19,7 +19,6 @@ The dataset consists of patient records with several clinical features:
 - **Models:** - Logistic Regression (LR)
   - K-Nearest Neighbors (KNN)
   - Random Forest (RF)
-  - Artificial Neural Networks (ANN)
   - LLM Prompt Engineering (Logic for zero-shot clinical reasoning)
 
 ## 🚀 Key Features & Methodology
@@ -36,7 +35,7 @@ The dataset consists of patient records with several clinical features:
 The models were evaluated on their ability to differentiate between complex mood disorders:
 - **Binary RF:** Achieved high accuracy in identifying general mental health risk.
 - **Multiclass RF:** Showed the best balance in distinguishing Bipolar types vs. Depression.
-- **Deep Learning (ANN):** Captured non-linear relationships between symptoms.
+
 
 ## 📂 Project Structure
 ```text
